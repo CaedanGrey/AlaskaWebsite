@@ -17,6 +17,10 @@ aside>p {
     margin: 0.5rem;
 }
 
+btn-city {
+    align-self: center;
+}
+
 .carousel-item {
     height: 32rem;
     background: #777;
