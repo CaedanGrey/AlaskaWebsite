@@ -70,8 +70,12 @@
                 <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
             </ol>
             <div class="carousel-inner">
-                <img src="./Gallery-0.jpg" class="d-block w-100" alt="Humpback Whale breaching water">
+                <div class="carousel-item active">
+                    <div class="overlay-image"
+                        style="background-image:url(./Gallery-0.jpg);"
+                        alt="Humpback Whale breaching water">
                     </div>
+                </div>
                 <div class="carousel-item">
                     <div class="overlay-image"
                         style="background-image:url(./Gallery-1.jpg);"
@@ -115,6 +119,9 @@
 
         <form>
             <h3 style="text-align:center">Contact Us Form</h3>
+            <aside>
+                <p>We would love to hear from you!</p>
+            </aside>
             <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="firstname" placeholder="Enter your first name">
