@@ -16,16 +16,15 @@ aside {
 aside>p {
     margin: 0.5rem;
 }
-
-btn-city {
-    align-self: center;
-}
-
 .carousel-item {
     height: 32rem;
     background: #777;
     color: white;
     position: relative;
+}
+
+.carousel-control-prev {
+    width: 5% !important;
 }
 
 .citation {
